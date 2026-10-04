@@ -9,5 +9,10 @@
     "rural_adjusted_pct": -11.761480312184558,
     "bed_count_elasticity": -0.02211969758069822,
     "median_max_to_min_ratio": 2.686114358219931
+  },
+  "rural_bootstrap": {
+    "median_difference_pct": -5.1579356516157855,
+    "ci_low": -23.790338765996374,
+    "ci_high": 8.561611228202656
   }
 }

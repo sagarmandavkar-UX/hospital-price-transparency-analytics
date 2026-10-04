@@ -1,0 +1,5 @@
+hospital,procedure_code,payer,negotiated_rate,rural,beds,rate,benchmark_rate,relative_to_benchmark
+TN Medical Center 06,45378,Self Pay,"$3,359.07",False,290,3359.07,1959.2649999999999,1.714454144794094
+TN Medical Center 02,43239,Self Pay,"$4,003.89",False,630,4003.89,2379.15,1.6829077611752095
+TN Medical Center 03,27447,Blue Cross,"$45,314.98",False,460,45314.98,28158.864999999998,1.6092615948831748
+TN Medical Center 14,45378,Cigna,"$3,847.74",False,120,3847.74,2399.505,1.6035557333700075

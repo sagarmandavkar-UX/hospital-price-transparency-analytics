@@ -66,6 +66,40 @@ def analyze_variation(clean: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, floa
     return summary, drivers
 
 
+def payer_price_index(clean: pd.DataFrame) -> pd.DataFrame:
+    """Compare payer rates after normalizing within procedure."""
+    data = clean.copy()
+    procedure_median = data.groupby("procedure_code")["rate"].transform("median")
+    data["price_index"] = data["rate"] / procedure_median
+    return (
+        data.groupby("payer", as_index=False)
+        .agg(median_price_index=("price_index", "median"), observations=("price_index", "size"))
+        .sort_values("median_price_index", ascending=False)
+    )
+
+
+def hospital_outliers(clean: pd.DataFrame, threshold: float = 1.5) -> pd.DataFrame:
+    """Identify unusually high prices relative to the procedure/payer median."""
+    data = clean.copy()
+    benchmark = data.groupby(["procedure_code", "payer"])["rate"].transform("median")
+    data["benchmark_rate"] = benchmark
+    data["relative_to_benchmark"] = data["rate"] / benchmark
+    return data.loc[data["relative_to_benchmark"] >= threshold].sort_values("relative_to_benchmark", ascending=False)
+
+
+def bootstrap_rural_difference(clean: pd.DataFrame, seed: int = 19, draws: int = 2000) -> dict[str, float]:
+    """Bootstrap the rural-versus-urban median log-price difference."""
+    data = clean.assign(log_rate=np.log(clean["rate"]))
+    rural = data.loc[data["rural"], "log_rate"].to_numpy()
+    urban = data.loc[~data["rural"], "log_rate"].to_numpy()
+    rng = np.random.default_rng(seed)
+    estimates = np.empty(draws)
+    for index in range(draws):
+        estimates[index] = np.median(rng.choice(rural, len(rural), replace=True)) - np.median(rng.choice(urban, len(urban), replace=True))
+    low, high = np.quantile(100 * (np.exp(estimates) - 1), [0.025, 0.975])
+    return {"median_difference_pct": float(100 * (np.exp(np.median(rural) - np.median(urban)) - 1)), "ci_low": float(low), "ci_high": float(high)}
+
+
 def main() -> None:
     out = Path(__file__).parent / "outputs"
     out.mkdir(exist_ok=True)
@@ -73,7 +107,9 @@ def main() -> None:
     summary, drivers = analyze_variation(clean)
     clean.to_csv(out / "clean_rates.csv", index=False)
     summary.to_csv(out / "procedure_variation.csv", index=False)
-    result = {"data_quality": quality, "modeled_drivers": drivers}
+    payer_price_index(clean).to_csv(out / "payer_price_index.csv", index=False)
+    hospital_outliers(clean).to_csv(out / "high_price_outliers.csv", index=False)
+    result = {"data_quality": quality, "modeled_drivers": drivers, "rural_bootstrap": bootstrap_rural_difference(clean)}
     (out / "findings.json").write_text(json.dumps(result, indent=2))
     print(json.dumps(result, indent=2))
 

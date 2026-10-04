@@ -1,0 +1,13 @@
+{
+  "data_quality": {
+    "input_rows": 258,
+    "invalid_rates": 1,
+    "duplicates_removed": 2,
+    "clean_rows": 255
+  },
+  "modeled_drivers": {
+    "rural_adjusted_pct": -11.761480312184558,
+    "bed_count_elasticity": -0.02211969758069822,
+    "median_max_to_min_ratio": 2.686114358219931
+  }
+}

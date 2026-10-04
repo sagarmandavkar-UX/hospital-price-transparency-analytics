@@ -1,0 +1,256 @@
+hospital,procedure_code,payer,negotiated_rate,rural,beds,rate
+TN Medical Center 00,45378,Blue Cross,"$2,217.23",True,616,2217.23
+TN Medical Center 00,45378,Aetna,"$1,943.51",True,616,1943.51
+TN Medical Center 00,45378,Cigna,"$1,686.60",True,616,1686.6
+TN Medical Center 00,45378,Self Pay,"$1,547.51",True,616,1547.51
+TN Medical Center 00,70553,Blue Cross,"$1,325.44",True,616,1325.44
+TN Medical Center 00,70553,Aetna,"$1,688.19",True,616,1688.19
+TN Medical Center 00,70553,Cigna,"$2,266.13",True,616,2266.13
+TN Medical Center 00,70553,Self Pay,"$1,234.03",True,616,1234.03
+TN Medical Center 00,27447,Blue Cross,"$24,189.47",True,616,24189.47
+TN Medical Center 00,27447,Cigna,"$30,286.76",True,616,30286.76
+TN Medical Center 00,27447,Self Pay,"$23,725.31",True,616,23725.31
+TN Medical Center 00,43239,Blue Cross,"$2,107.16",True,616,2107.16
+TN Medical Center 00,43239,Aetna,"$2,592.50",True,616,2592.5
+TN Medical Center 00,43239,Cigna,"$3,062.62",True,616,3062.62
+TN Medical Center 00,43239,Self Pay,"$1,590.19",True,616,1590.19
+TN Medical Center 01,45378,Blue Cross,"$2,173.74",False,419,2173.74
+TN Medical Center 01,45378,Aetna,"$1,559.58",False,419,1559.58
+TN Medical Center 01,45378,Cigna,"$1,795.18",False,419,1795.18
+TN Medical Center 01,45378,Self Pay,"$1,312.29",False,419,1312.29
+TN Medical Center 01,70553,Blue Cross,"$1,840.26",False,419,1840.26
+TN Medical Center 01,70553,Aetna,"$1,451.30",False,419,1451.3
+TN Medical Center 01,70553,Cigna,"$2,067.55",False,419,2067.55
+TN Medical Center 01,70553,Self Pay,"$1,671.46",False,419,1671.46
+TN Medical Center 01,27447,Blue Cross,"$31,180.20",False,419,31180.2
+TN Medical Center 01,27447,Aetna,"$18,245.58",False,419,18245.58
+TN Medical Center 01,27447,Cigna,"$28,756.91",False,419,28756.91
+TN Medical Center 01,27447,Self Pay,"$26,716.80",False,419,26716.8
+TN Medical Center 01,43239,Blue Cross,"$3,125.40",False,419,3125.4
+TN Medical Center 01,43239,Aetna,"$2,141.64",False,419,2141.64
+TN Medical Center 01,43239,Cigna,"$2,728.13",False,419,2728.13
+TN Medical Center 01,43239,Self Pay,"$2,018.01",False,419,2018.01
+TN Medical Center 02,45378,Blue Cross,"$3,082.39",False,630,3082.39
+TN Medical Center 02,45378,Aetna,"$2,005.65",False,630,2005.65
+TN Medical Center 02,45378,Cigna,"$2,397.00",False,630,2397.0
+TN Medical Center 02,45378,Self Pay,"$2,456.60",False,630,2456.6
+TN Medical Center 02,70553,Blue Cross,"$1,698.50",False,630,1698.5
+TN Medical Center 02,70553,Aetna,"$1,893.23",False,630,1893.23
+TN Medical Center 02,70553,Cigna,"$1,992.48",False,630,1992.48
+TN Medical Center 02,70553,Self Pay,"$1,636.10",False,630,1636.1
+TN Medical Center 02,27447,Blue Cross,"$24,557.43",False,630,24557.43
+TN Medical Center 02,27447,Aetna,"$33,125.04",False,630,33125.04
+TN Medical Center 02,27447,Cigna,"$44,491.88",False,630,44491.88
+TN Medical Center 02,27447,Self Pay,"$18,927.28",False,630,18927.28
+TN Medical Center 02,43239,Blue Cross,"$3,710.47",False,630,3710.47
+TN Medical Center 02,43239,Aetna,"$3,129.75",False,630,3129.75
+TN Medical Center 02,43239,Cigna,"$2,627.32",False,630,2627.32
+TN Medical Center 02,43239,Self Pay,"$4,003.89",False,630,4003.89
+TN Medical Center 03,45378,Blue Cross,"$2,877.78",False,460,2877.78
+TN Medical Center 03,45378,Aetna,"$1,832.83",False,460,1832.83
+TN Medical Center 03,45378,Cigna,"$2,456.75",False,460,2456.75
+TN Medical Center 03,45378,Self Pay,"$2,288.76",False,460,2288.76
+TN Medical Center 03,70553,Blue Cross,"$1,859.96",False,460,1859.96
+TN Medical Center 03,70553,Aetna,"$2,272.87",False,460,2272.87
+TN Medical Center 03,70553,Cigna,"$1,913.01",False,460,1913.01
+TN Medical Center 03,70553,Self Pay,"$1,879.70",False,460,1879.7
+TN Medical Center 03,27447,Blue Cross,"$45,314.98",False,460,45314.98
+TN Medical Center 03,27447,Aetna,"$27,865.10",False,460,27865.1
+TN Medical Center 03,27447,Cigna,"$34,106.88",False,460,34106.88
+TN Medical Center 03,27447,Self Pay,"$24,285.68",False,460,24285.68
+TN Medical Center 03,43239,Blue Cross,"$3,135.45",False,460,3135.45
+TN Medical Center 03,43239,Aetna,"$2,317.40",False,460,2317.4
+TN Medical Center 03,43239,Cigna,"$2,665.15",False,460,2665.15
+TN Medical Center 03,43239,Self Pay,"$2,415.84",False,460,2415.84
+TN Medical Center 04,45378,Blue Cross,"$2,693.79",True,543,2693.79
+TN Medical Center 04,45378,Aetna,"$1,526.74",True,543,1526.74
+TN Medical Center 04,45378,Cigna,"$1,724.23",True,543,1724.23
+TN Medical Center 04,45378,Self Pay,"$1,993.73",True,543,1993.73
+TN Medical Center 04,70553,Blue Cross,"$1,052.92",True,543,1052.92
+TN Medical Center 04,70553,Aetna,"$1,496.75",True,543,1496.75
+TN Medical Center 04,70553,Cigna,"$1,628.16",True,543,1628.16
+TN Medical Center 04,70553,Self Pay,"$1,845.24",True,543,1845.24
+TN Medical Center 04,27447,Blue Cross,"$32,693.93",True,543,32693.93
+TN Medical Center 04,27447,Aetna,"$25,877.34",True,543,25877.34
+TN Medical Center 04,27447,Cigna,"$25,632.32",True,543,25632.32
+TN Medical Center 04,27447,Self Pay,"$21,862.05",True,543,21862.05
+TN Medical Center 04,43239,Blue Cross,"$3,705.29",True,543,3705.29
+TN Medical Center 04,43239,Aetna,"$2,365.30",True,543,2365.3
+TN Medical Center 04,43239,Cigna,"$2,433.92",True,543,2433.92
+TN Medical Center 04,43239,Self Pay,"$2,349.30",True,543,2349.3
+TN Medical Center 05,45378,Blue Cross,"$2,348.84",False,94,2348.84
+TN Medical Center 05,45378,Aetna,"$2,307.87",False,94,2307.87
+TN Medical Center 05,45378,Cigna,"$1,869.11",False,94,1869.11
+TN Medical Center 05,45378,Self Pay,"$1,999.15",False,94,1999.15
+TN Medical Center 05,70553,Blue Cross,"$1,754.09",False,94,1754.09
+TN Medical Center 05,70553,Aetna,"$2,540.05",False,94,2540.05
+TN Medical Center 05,70553,Cigna,"$2,257.34",False,94,2257.34
+TN Medical Center 05,70553,Self Pay,"$1,603.35",False,94,1603.35
+TN Medical Center 05,27447,Blue Cross,"$37,958.94",False,94,37958.94
+TN Medical Center 05,27447,Aetna,"$30,102.47",False,94,30102.47
+TN Medical Center 05,27447,Cigna,"$41,461.55",False,94,41461.55
+TN Medical Center 05,27447,Self Pay,"$26,982.97",False,94,26982.97
+TN Medical Center 05,43239,Blue Cross,"$3,482.25",False,94,3482.25
+TN Medical Center 05,43239,Aetna,"$2,262.78",False,94,2262.78
+TN Medical Center 05,43239,Cigna,"$3,297.74",False,94,3297.74
+TN Medical Center 05,43239,Self Pay,"$1,714.09",False,94,1714.09
+TN Medical Center 06,45378,Blue Cross,"$2,251.66",False,290,2251.66
+TN Medical Center 06,45378,Aetna,"$1,963.48",False,290,1963.48
+TN Medical Center 06,45378,Cigna,"$2,507.86",False,290,2507.86
+TN Medical Center 06,45378,Self Pay,"$3,359.07",False,290,3359.07
+TN Medical Center 06,70553,Blue Cross,"$1,604.29",False,290,1604.29
+TN Medical Center 06,70553,Aetna,"$1,682.82",False,290,1682.82
+TN Medical Center 06,70553,Cigna,"$2,036.47",False,290,2036.47
+TN Medical Center 06,70553,Self Pay,"$1,805.86",False,290,1805.86
+TN Medical Center 06,27447,Blue Cross,"$31,255.77",False,290,31255.77
+TN Medical Center 06,27447,Aetna,"$31,044.24",False,290,31044.24
+TN Medical Center 06,27447,Cigna,"$38,257.66",False,290,38257.66
+TN Medical Center 06,27447,Self Pay,"$30,448.19",False,290,30448.19
+TN Medical Center 06,43239,Blue Cross,"$2,400.69",False,290,2400.69
+TN Medical Center 06,43239,Aetna,"$2,990.05",False,290,2990.05
+TN Medical Center 06,43239,Cigna,"$3,069.81",False,290,3069.81
+TN Medical Center 06,43239,Self Pay,"$1,983.06",False,290,1983.06
+TN Medical Center 07,45378,Blue Cross,"$2,563.73",False,629,2563.73
+TN Medical Center 07,45378,Aetna,"$1,982.52",False,629,1982.52
+TN Medical Center 07,45378,Cigna,"$3,020.05",False,629,3020.05
+TN Medical Center 07,45378,Self Pay,"$2,095.31",False,629,2095.31
+TN Medical Center 07,70553,Blue Cross,"$1,982.81",False,629,1982.81
+TN Medical Center 07,70553,Aetna,"$1,695.60",False,629,1695.6
+TN Medical Center 07,70553,Cigna,"$1,890.22",False,629,1890.22
+TN Medical Center 07,70553,Self Pay,"$1,018.33",False,629,1018.33
+TN Medical Center 07,27447,Blue Cross,"$25,092.11",False,629,25092.11
+TN Medical Center 07,27447,Aetna,"$35,382.97",False,629,35382.97
+TN Medical Center 07,27447,Cigna,"$19,949.56",False,629,19949.56
+TN Medical Center 07,27447,Self Pay,"$32,824.26",False,629,32824.26
+TN Medical Center 07,43239,Blue Cross,"$2,037.86",False,629,2037.86
+TN Medical Center 07,43239,Aetna,"$3,623.90",False,629,3623.9
+TN Medical Center 07,43239,Cigna,"$2,506.87",False,629,2506.87
+TN Medical Center 07,43239,Self Pay,"$3,023.27",False,629,3023.27
+TN Medical Center 08,45378,Blue Cross,"$1,453.65",True,119,1453.65
+TN Medical Center 08,45378,Aetna,"$2,758.96",True,119,2758.96
+TN Medical Center 08,45378,Cigna,"$2,883.89",True,119,2883.89
+TN Medical Center 08,45378,Self Pay,"$1,692.29",True,119,1692.29
+TN Medical Center 08,70553,Blue Cross,"$1,563.34",True,119,1563.34
+TN Medical Center 08,70553,Aetna,"$1,604.89",True,119,1604.89
+TN Medical Center 08,70553,Cigna,"$1,330.48",True,119,1330.48
+TN Medical Center 08,70553,Self Pay,"$1,779.21",True,119,1779.21
+TN Medical Center 08,27447,Blue Cross,"$24,624.98",True,119,24624.98
+TN Medical Center 08,27447,Aetna,"$27,573.44",True,119,27573.44
+TN Medical Center 08,27447,Cigna,"$23,246.82",True,119,23246.82
+TN Medical Center 08,27447,Self Pay,"$20,051.43",True,119,20051.43
+TN Medical Center 08,43239,Blue Cross,"$1,945.41",True,119,1945.41
+TN Medical Center 08,43239,Aetna,"$3,485.03",True,119,3485.03
+TN Medical Center 08,43239,Cigna,"$2,519.12",True,119,2519.12
+TN Medical Center 08,43239,Self Pay,"$2,705.22",True,119,2705.22
+TN Medical Center 09,45378,Blue Cross,"$2,422.41",False,201,2422.41
+TN Medical Center 09,45378,Aetna,"$2,058.52",False,201,2058.52
+TN Medical Center 09,45378,Cigna,"$2,240.19",False,201,2240.19
+TN Medical Center 09,45378,Self Pay,"$1,762.12",False,201,1762.12
+TN Medical Center 09,70553,Blue Cross,"$1,946.06",False,201,1946.06
+TN Medical Center 09,70553,Aetna,"$1,781.87",False,201,1781.87
+TN Medical Center 09,70553,Cigna,"$1,813.02",False,201,1813.02
+TN Medical Center 09,70553,Self Pay,"$1,174.18",False,201,1174.18
+TN Medical Center 09,27447,Blue Cross,"$27,036.91",False,201,27036.91
+TN Medical Center 09,27447,Aetna,"$47,617.99",False,201,47617.99
+TN Medical Center 09,27447,Cigna,"$27,893.50",False,201,27893.5
+TN Medical Center 09,27447,Self Pay,"$21,200.11",False,201,21200.11
+TN Medical Center 09,43239,Blue Cross,"$3,290.65",False,201,3290.65
+TN Medical Center 09,43239,Aetna,"$4,208.78",False,201,4208.78
+TN Medical Center 09,43239,Cigna,"$2,179.46",False,201,2179.46
+TN Medical Center 09,43239,Self Pay,"$2,409.00",False,201,2409.0
+TN Medical Center 10,45378,Blue Cross,"$1,610.69",False,266,1610.69
+TN Medical Center 10,45378,Aetna,"$2,859.74",False,266,2859.74
+TN Medical Center 10,45378,Cigna,"$2,402.01",False,266,2402.01
+TN Medical Center 10,45378,Self Pay,"$2,037.66",False,266,2037.66
+TN Medical Center 10,70553,Blue Cross,"$1,633.86",False,266,1633.86
+TN Medical Center 10,70553,Aetna,"$2,156.69",False,266,2156.69
+TN Medical Center 10,70553,Cigna,"$1,715.90",False,266,1715.9
+TN Medical Center 10,70553,Self Pay,"$1,560.14",False,266,1560.14
+TN Medical Center 10,27447,Blue Cross,"$25,226.05",False,266,25226.05
+TN Medical Center 10,27447,Aetna,"$24,608.05",False,266,24608.05
+TN Medical Center 10,27447,Cigna,"$44,254.17",False,266,44254.17
+TN Medical Center 10,27447,Self Pay,"$24,042.27",False,266,24042.27
+TN Medical Center 10,43239,Blue Cross,"$3,256.29",False,266,3256.29
+TN Medical Center 10,43239,Aetna,"$3,021.43",False,266,3021.43
+TN Medical Center 10,43239,Cigna,"$2,751.20",False,266,2751.2
+TN Medical Center 10,43239,Self Pay,"$2,248.67",False,266,2248.67
+TN Medical Center 11,45378,Blue Cross,"$2,791.61",False,223,2791.61
+TN Medical Center 11,45378,Aetna,"$2,253.02",False,223,2253.02
+TN Medical Center 11,45378,Cigna,"$2,332.33",False,223,2332.33
+TN Medical Center 11,45378,Self Pay,"$2,014.72",False,223,2014.72
+TN Medical Center 11,70553,Blue Cross,"$2,546.13",False,223,2546.13
+TN Medical Center 11,70553,Aetna,"$2,271.62",False,223,2271.62
+TN Medical Center 11,70553,Cigna,"$2,121.18",False,223,2121.18
+TN Medical Center 11,70553,Self Pay,"$1,416.27",False,223,1416.27
+TN Medical Center 11,27447,Blue Cross,"$23,686.96",False,223,23686.96
+TN Medical Center 11,27447,Aetna,"$40,494.63",False,223,40494.63
+TN Medical Center 11,27447,Cigna,"$40,652.49",False,223,40652.49
+TN Medical Center 11,27447,Self Pay,"$26,156.16",False,223,26156.16
+TN Medical Center 11,43239,Blue Cross,"$3,449.17",False,223,3449.17
+TN Medical Center 11,43239,Aetna,"$3,644.55",False,223,3644.55
+TN Medical Center 11,43239,Cigna,"$3,686.48",False,223,3686.48
+TN Medical Center 11,43239,Self Pay,"$3,123.92",False,223,3123.92
+TN Medical Center 12,45378,Blue Cross,"$2,932.90",True,303,2932.9
+TN Medical Center 12,45378,Aetna,"$1,554.00",True,303,1554.0
+TN Medical Center 12,45378,Cigna,"$2,523.75",True,303,2523.75
+TN Medical Center 12,45378,Self Pay,"$1,924.80",True,303,1924.8
+TN Medical Center 12,70553,Blue Cross,"$2,035.53",True,303,2035.53
+TN Medical Center 12,70553,Aetna,"$2,565.10",True,303,2565.1
+TN Medical Center 12,70553,Cigna,"$2,342.57",True,303,2342.57
+TN Medical Center 12,70553,Self Pay,"$1,061.95",True,303,1061.95
+TN Medical Center 12,27447,Blue Cross,"$18,920.24",True,303,18920.24
+TN Medical Center 12,27447,Aetna,"$33,666.77",True,303,33666.77
+TN Medical Center 12,27447,Cigna,"$22,091.08",True,303,22091.08
+TN Medical Center 12,27447,Self Pay,"$23,091.02",True,303,23091.02
+TN Medical Center 12,43239,Blue Cross,"$3,166.06",True,303,3166.06
+TN Medical Center 12,43239,Aetna,"$1,788.32",True,303,1788.32
+TN Medical Center 12,43239,Cigna,"$1,606.49",True,303,1606.49
+TN Medical Center 12,43239,Self Pay,"$2,299.43",True,303,2299.43
+TN Medical Center 13,45378,Blue Cross,"$2,439.78",False,439,2439.78
+TN Medical Center 13,45378,Aetna,"$2,282.26",False,439,2282.26
+TN Medical Center 13,45378,Cigna,"$2,436.50",False,439,2436.5
+TN Medical Center 13,45378,Self Pay,"$1,644.52",False,439,1644.52
+TN Medical Center 13,70553,Blue Cross,"$1,371.45",False,439,1371.45
+TN Medical Center 13,70553,Aetna,"$1,869.45",False,439,1869.45
+TN Medical Center 13,70553,Cigna,"$1,553.46",False,439,1553.46
+TN Medical Center 13,70553,Self Pay,"$1,104.78",False,439,1104.78
+TN Medical Center 13,27447,Blue Cross,"$36,564.73",False,439,36564.73
+TN Medical Center 13,27447,Aetna,"$32,093.57",False,439,32093.57
+TN Medical Center 13,27447,Cigna,"$35,740.30",False,439,35740.3
+TN Medical Center 13,27447,Self Pay,"$21,518.43",False,439,21518.43
+TN Medical Center 13,43239,Blue Cross,"$2,617.31",False,439,2617.31
+TN Medical Center 13,43239,Aetna,"$2,419.89",False,439,2419.89
+TN Medical Center 13,43239,Cigna,"$2,483.26",False,439,2483.26
+TN Medical Center 13,43239,Self Pay,"$2,643.53",False,439,2643.53
+TN Medical Center 14,45378,Blue Cross,"$2,621.10",False,120,2621.1
+TN Medical Center 14,45378,Aetna,"$2,611.29",False,120,2611.29
+TN Medical Center 14,45378,Cigna,"$3,847.74",False,120,3847.74
+TN Medical Center 14,45378,Self Pay,"$1,455.03",False,120,1455.03
+TN Medical Center 14,70553,Blue Cross,"$2,382.60",False,120,2382.6
+TN Medical Center 14,70553,Aetna,"$1,902.93",False,120,1902.93
+TN Medical Center 14,70553,Cigna,"$1,936.24",False,120,1936.24
+TN Medical Center 14,70553,Self Pay,"$1,155.09",False,120,1155.09
+TN Medical Center 14,27447,Blue Cross,"$29,280.82",False,120,29280.82
+TN Medical Center 14,27447,Aetna,"$38,617.78",False,120,38617.78
+TN Medical Center 14,27447,Cigna,"$31,938.35",False,120,31938.35
+TN Medical Center 14,27447,Self Pay,"$27,524.88",False,120,27524.88
+TN Medical Center 14,43239,Blue Cross,"$2,848.05",False,120,2848.05
+TN Medical Center 14,43239,Aetna,"$3,971.13",False,120,3971.13
+TN Medical Center 14,43239,Cigna,"$3,030.00",False,120,3030.0
+TN Medical Center 14,43239,Self Pay,"$1,523.60",False,120,1523.6
+TN Medical Center 15,45378,Blue Cross,"$2,059.62",False,134,2059.62
+TN Medical Center 15,45378,Aetna,"$1,535.53",False,134,1535.53
+TN Medical Center 15,45378,Cigna,"$1,143.24",False,134,1143.24
+TN Medical Center 15,45378,Self Pay,"$1,774.37",False,134,1774.37
+TN Medical Center 15,70553,Blue Cross,"$2,639.78",False,134,2639.78
+TN Medical Center 15,70553,Aetna,"$1,963.67",False,134,1963.67
+TN Medical Center 15,70553,Cigna,"$1,483.33",False,134,1483.33
+TN Medical Center 15,70553,Self Pay,"$1,298.60",False,134,1298.6
+TN Medical Center 15,27447,Blue Cross,"$42,216.81",False,134,42216.81
+TN Medical Center 15,27447,Aetna,"$33,751.72",False,134,33751.72
+TN Medical Center 15,27447,Cigna,"$32,911.34",False,134,32911.34
+TN Medical Center 15,27447,Self Pay,"$26,686.33",False,134,26686.33
+TN Medical Center 15,43239,Blue Cross,"$3,072.01",False,134,3072.01
+TN Medical Center 15,43239,Aetna,"$3,664.69",False,134,3664.69
+TN Medical Center 15,43239,Cigna,"$3,457.66",False,134,3457.66
+TN Medical Center 15,43239,Self Pay,"$2,655.90",False,134,2655.9
